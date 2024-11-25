@@ -1,0 +1,132 @@
+/* Основний фон та текст */
+body {
+    background-color: #3A3F58;
+    color: #ECE6CD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #F9AC67;
+    margin-bottom: 20px;
+}
+
+/* Посилання */
+a {
+    color: #EE6A59;
+    text-decoration: none;
+}
+a:hover {
+    color: #F9AC67;
+    text-decoration: underline;
+}
+
+/* Кнопки */
+button, .button {
+    background-color: #EE6A59;
+    color: #ECE6CD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 20px; /* Відступ між кнопками */
+}
+button:hover, .button:hover {
+    background-color: #F9AC67;
+}
+
+/* Форми */
+input[type="text"], input[type="password"], textarea {
+    background-color: #ECE6CD;
+    color: #3A3F58;
+    border: 1px solid #F9AC67;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Контейнер */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Центрування тексту і кнопок */
+}
+
+/* Карти або блоки контенту */
+.card {
+    background-color: #3A3F58;
+    border: 1px solid #F9AC67;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Статистика або списки */
+.list-item {
+    background-color: #EE6A59;
+    color: #ECE6CD;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/* Відступи для контейнерів із кнопками та статистикою */
+.button-container, .stats-container {
+    margin-top: 20px;
+}
+
+/* Стиль тексту у статистиці */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.stats-table th, .stats-table td {
+    padding: 12px;
+    border: 1px solid #F9AC67;
+    text-align: center;
+    color: #ECE6CD;
+}
+.stats-table th {
+    background-color: #F9AC67;
+    color: #3A3F58;
+}
+.stats-table td {
+    background-color: #3A3F58;
+}
+
+/* Додані стилі для зображень */
+.game-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    max-width: 100%; /* Зображення займає максимум ширину контейнера */
+    height: auto;    /* Зберігається пропорція зображення */
+    margin: 0 auto 20px; /* Центрування та відступ знизу */
+    border-radius: 8px; /* Опціонально: згладжені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Опціонально: тінь для зображення */
+}
